@@ -16,13 +16,11 @@ const cartReducer = (st = cart, action) => {
   switch (action.type) {
     case ActionTypes.ADD_ITEM_CART:
       let ITEM_ID = `${action.payload.id}_${action.payload.color}`;
-      console.log(action.payload.id);
       if (!prev_items[ITEM_ID]) {
         prev_items[ITEM_ID] = {...action.payload};
       }
       let added1 = prev_items[ITEM_ID].added + 1;
       prev_items[ITEM_ID].added = added1;
-      console.log(prev_items);
       let tot_items = st.totalItems + 1;
       let tot_amount = (
         parseFloat(st.totalAmount) + parseFloat(action.payload.price)

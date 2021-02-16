@@ -3,7 +3,6 @@ import React, {useState, useEffect} from 'react';
 import {
   View,
   Text,
-  StyleSheet,
   ImageBackground,
   TouchableOpacity,
   ScrollView,
