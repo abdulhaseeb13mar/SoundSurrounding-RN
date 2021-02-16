@@ -29,7 +29,7 @@ function MyHeader(props) {
             <LeftIconLibrary
               name={props.leftIconName}
               size={dim.width * 0.065}
-              color={colors.primary}
+              color={colors.secondary}
             />
           </TouchableOpacity>
         ) : (
@@ -51,7 +51,7 @@ function MyHeader(props) {
             <RightIconLibrary
               name={props.rightIconName}
               size={dim.width * 0.075}
-              color={colors.primary}
+              color={colors.secondary}
             />
             {props.totalItems > 0 && (
               <Badge
@@ -86,15 +86,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 5,
     borderRadius: 10,
-    backgroundColor: colors.secondary,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 1.41,
+    // backgroundColor: ,
+    // elevation: 2,
+    // shadowColor: '#000',
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 1,
+    // },
+    // shadowOpacity: 0.2,
+    // shadowRadius: 1.41,
   },
   HeaderText: {
     fontWeight: 'bold',

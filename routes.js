@@ -10,6 +10,7 @@ import SinglePrd from './Views/singlePrd';
 import Favourites from './Views/favourites';
 import Cart from './Views/cart';
 import InfoScreen from './Views/InfoScreen';
+import SearchScreen from './Views/searchScreen';
 const Stack = createStackNavigator();
 
 function Routes(props) {
@@ -29,6 +30,7 @@ function Routes(props) {
         <Stack.Screen name="Favourites" component={Favourites} />
         <Stack.Screen name="Cart" component={Cart} />
         <Stack.Screen name="InfoScreen" component={InfoScreen} />
+        <Stack.Screen name="SearchScreen" component={SearchScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

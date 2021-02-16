@@ -15,11 +15,14 @@ const cartReducer = (st = cart, action) => {
   let prev_items = {...st.items};
   switch (action.type) {
     case ActionTypes.ADD_ITEM_CART:
-      if (!prev_items[action.payload.id]) {
-        prev_items[action.payload.id] = {...action.payload};
+      let ITEM_ID = `${action.payload.id}_${action.payload.color}`;
+      console.log(action.payload.id);
+      if (!prev_items[ITEM_ID]) {
+        prev_items[ITEM_ID] = {...action.payload};
       }
-      let added1 = prev_items[action.payload.id].added + 1;
-      prev_items[action.payload.id].added = added1;
+      let added1 = prev_items[ITEM_ID].added + 1;
+      prev_items[ITEM_ID].added = added1;
+      console.log(prev_items);
       let tot_items = st.totalItems + 1;
       let tot_amount = (
         parseFloat(st.totalAmount) + parseFloat(action.payload.price)
@@ -32,12 +35,12 @@ const cartReducer = (st = cart, action) => {
       return st;
 
     case ActionTypes.REMOVE_ITEM_CART:
-      const id = action.payload.id;
-      const itemAdded = prev_items[id].added;
+      ITEM_ID = `${action.payload.id}_${action.payload.color}`;
+      const itemAdded = prev_items[ITEM_ID].added;
       if (itemAdded === 1) {
-        delete prev_items[id];
+        delete prev_items[ITEM_ID];
       } else {
-        prev_items[action.payload.id].added = itemAdded - 1;
+        prev_items[ITEM_ID].added = itemAdded - 1;
       }
       tot_items = st.totalItems - 1;
       tot_amount = (

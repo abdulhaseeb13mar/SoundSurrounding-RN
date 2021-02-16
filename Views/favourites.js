@@ -7,7 +7,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import UseHeader from '../Helpers/UseHeader';
 import HigherOrderScreen from '../Helpers/HigherOrderScreen';
 import NavPointer from '../Navigation/NavPointer';
-import {CookiesTiles} from './MainScreen';
+import {ProductTile} from './MainScreen';
 import dim from '../Helpers/heightWidth';
 
 export const Favourites = (props) => {
@@ -31,7 +31,7 @@ export const Favourites = (props) => {
           {props.favs.length > 0 ? (
             props.favs.map((item, index) => {
               return (
-                <CookiesTiles
+                <ProductTile
                   key={item.id}
                   item={{...item}}
                   goToSP={goToSP}

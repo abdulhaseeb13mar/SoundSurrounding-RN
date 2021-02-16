@@ -27,7 +27,7 @@ const ConfirmOrder = (props) => {
   const [phoneErrMsg, setPhoneErrMsg] = useState('');
   const [address, setAddress] = useState('');
   const [addressErrMsg, setAddressErrMsg] = useState('');
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const Confirm = () => {
@@ -77,7 +77,7 @@ const ConfirmOrder = (props) => {
             phonenumber: phone,
             address: address,
             email: email,
-            appname: 'Ball Collection',
+            appname: 'Sound Sorrounding',
           }),
         },
       );
@@ -325,7 +325,7 @@ const styles = StyleSheet.create({
   },
   sm1: {
     width: '75%',
-    backgroundColor: colors.secondary,
+    backgroundColor: 'white',
     borderRadius: 50,
     elevation: 2,
     shadowColor: '#000',

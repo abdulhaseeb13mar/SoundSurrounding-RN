@@ -41,6 +41,7 @@ export const Data = {
         'The HD 450BT delivers captivating sound that you can enjoy without distraction – even in loud environments.',
       bgcolor: '#E9EDEF',
       price: '586',
+      added: 0,
     },
     {
       id: '2',
@@ -51,6 +52,7 @@ export const Data = {
         'The HD 350BT delivers an engaging sound experience with deep dynamic bass. Flawless transmission is assured by the latest wireless technology.',
       bgcolor: '#E9EDEF',
       price: '647',
+      added: 0,
     },
     {
       id: '3',
@@ -61,6 +63,7 @@ export const Data = {
         'Adaptive Noise Cancellation automatically adjusts to your surroundings to suppress unwanted background noise.',
       bgcolor: '#E9EDEF',
       price: '354',
+      added: 0,
     },
     {
       id: '4',
@@ -71,6 +74,7 @@ export const Data = {
         'Offering superior sound, cutting-edge technology, and a modern design aesthetic to every moment.',
       bgcolor: '#E9EDEF',
       price: '267',
+      added: 0,
     },
     {
       id: '5',
@@ -81,6 +85,7 @@ export const Data = {
         'Combines high-resolution sound with a lightweight, puristic design and exclusive materials like stainless steel and Alcantara®.',
       bgcolor: '#E9EDEF',
       price: '598',
+      added: 0,
     },
     {
       id: '6',
@@ -91,6 +96,7 @@ export const Data = {
         'Advanced Sennheiser active noise cancellation lets you enjoy music in peace.',
       bgcolor: '#E9EDEF',
       price: '642',
+      added: 0,
     },
     {
       id: '7',
@@ -101,6 +107,7 @@ export const Data = {
         'Whether you’re flying long-haul or relaxing in a café, the WH-1000XM4 headphones deliver our best ever noise cancelling performance.',
       bgcolor: '#E9EDEF',
       price: '355',
+      added: 0,
     },
     {
       id: '8',
@@ -111,6 +118,7 @@ export const Data = {
         'As part of the EXTRA BASS™ 1 range from Sony, the WH-XB900N noise cancelling headphones enhance all your low-end frequencies for exceptional bass.',
       bgcolor: '#E9EDEF',
       price: '754',
+      added: 0,
     },
     {
       id: '9',
@@ -121,6 +129,7 @@ export const Data = {
         'If your headphones are running low on power, a 10-minute quick charge will give you up to 90 minutes of play time. Ideal if you’re rushing around from place to place.',
       bgcolor: '#E9EDEF',
       price: '394',
+      added: 0,
     },
     {
       id: '10',
@@ -131,6 +140,7 @@ export const Data = {
         'Dual microphones feeding forwards and backwards mean the WH-CH710N headphones catch more ambient sounds than ever before.',
       bgcolor: '#E9EDEF',
       price: '246',
+      added: 0,
     },
     {
       id: '11',
@@ -141,6 +151,7 @@ export const Data = {
         'Lightweight, folding design for ultimate music mobility, 30mm ferrite drivers for powerful, balanced sound',
       bgcolor: '#E9EDEF',
       price: '367',
+      added: 0,
     },
     {
       id: '12',
@@ -151,6 +162,7 @@ export const Data = {
         'High energy neodymium magnets deliver powerful sound, 12Hz–22kHz frequency range',
       bgcolor: '#E9EDEF',
       price: '359',
+      added: 0,
     },
     {
       id: '13',
@@ -161,6 +173,7 @@ export const Data = {
         'Powered by fine-tuned acoustics for incredible clarity, breadth, and balance, it’s the ideal introduction to Beats for any music lover.',
       bgcolor: '#E9EDEF',
       price: '845',
+      added: 0,
     },
     {
       id: '14',
@@ -171,6 +184,7 @@ export const Data = {
         'On-ear controls with dual beam-forming mics allow you to take calls, play music, adjust volume, and voice activate wherever your day takes you.',
       bgcolor: '#E9EDEF',
       price: '648',
+      added: 0,
     },
     {
       id: '15',
@@ -181,6 +195,7 @@ export const Data = {
         'Real-time audio calibration preserves clarity, range, and emotion to deliver a premium listening experience.',
       bgcolor: '#E9EDEF',
       price: '492',
+      added: 0,
     },
     {
       id: '16',
@@ -191,6 +206,7 @@ export const Data = {
         'Switch seamlessly between Noise Cancelling with real-time audio calibration, or Transparency Mode to stay aware of your surroundings.',
       bgcolor: '#E9EDEF',
       price: '355',
+      added: 0,
     },
     {
       id: '17',
@@ -201,6 +217,7 @@ export const Data = {
         'Adjustable, secure-fit earhooks are customizable with multiple eartip options, and are made to stay in place, no matter how hard you go.',
       bgcolor: '#E9EDEF',
       price: '754',
+      added: 0,
     },
     {
       id: '18',
@@ -211,6 +228,7 @@ export const Data = {
         'Auto Play/Pause, independent earbud connection via the Apple H1 chip, and full volume and track controls on each earbud mean you’re in charge of how you listen.',
       bgcolor: '#E9EDEF',
       price: '394',
+      added: 0,
     },
     {
       id: '19',
@@ -220,6 +238,7 @@ export const Data = {
       dis: 'Wired over-ear gaming headset with a detachable mic',
       bgcolor: '#E9EDEF',
       price: '246',
+      added: 0,
     },
     {
       id: '20',
@@ -229,6 +248,7 @@ export const Data = {
       dis: 'Wireless on-ear headphones',
       bgcolor: '#E9EDEF',
       price: '647',
+      added: 0,
     },
     {
       id: '21',
@@ -238,6 +258,7 @@ export const Data = {
       dis: 'On-ear sport Headphones',
       bgcolor: '#E9EDEF',
       price: '354',
+      added: 0,
     },
     {
       id: '22',
@@ -247,6 +268,7 @@ export const Data = {
       dis: 'USB over-ear gaming headset with game-chat dial',
       bgcolor: '#E9EDEF',
       price: '267',
+      added: 0,
     },
     {
       id: '23',
@@ -256,6 +278,7 @@ export const Data = {
       dis: 'Wireless Over-Ear Headphones',
       bgcolor: '#E9EDEF',
       price: '598',
+      added: 0,
     },
     {
       id: '24',
@@ -265,6 +288,7 @@ export const Data = {
       dis: 'Wireless Over-Ear Headphones',
       bgcolor: '#E9EDEF',
       price: '642',
+      added: 0,
     },
     {
       id: '25',
@@ -275,6 +299,7 @@ export const Data = {
         'Beoplay H95 is crafted for the ultimate listening experience with long lasting comfort and effective Active Noise Cancellation.',
       bgcolor: '#E9EDEF',
       price: '355',
+      added: 0,
     },
     {
       id: '26',
@@ -285,6 +310,7 @@ export const Data = {
         'Comfortable Active Noise Cancelling over-ear headphones with touch interface and up to 25 hours of playtime.',
       bgcolor: '#E9EDEF',
       price: '754',
+      added: 0,
     },
     {
       id: '27',
@@ -295,6 +321,7 @@ export const Data = {
         'Contemporary over-ear headphones with long-lasting comfort, superior sound and voice assistant.',
       bgcolor: '#E9EDEF',
       price: '394',
+      added: 0,
     },
     {
       id: '28',
@@ -305,6 +332,7 @@ export const Data = {
         'Luxurious Active Noise Cancelling on-ear headphones designed for superior style and comfort. Up to 30 hours of wireless Bang & Olufsen Signature Sound.',
       bgcolor: '#E9EDEF',
       price: '246',
+      added: 0,
     },
     {
       id: '29',
@@ -315,6 +343,7 @@ export const Data = {
         'QI-certified wireless charging case and Bluetooth 5.1 connectivity ensure a seamless and powerful listening experience.',
       bgcolor: '#E9EDEF',
       price: '647',
+      added: 0,
     },
     {
       id: '30',
@@ -325,6 +354,7 @@ export const Data = {
         'Wireless earphones designed for sport. Expertly crafted for powerful music performance in any weather. Waterproof, secure-fitting, and long-lasting battery life.',
       bgcolor: '#E9EDEF',
       price: '354',
+      added: 0,
     },
   ],
 };

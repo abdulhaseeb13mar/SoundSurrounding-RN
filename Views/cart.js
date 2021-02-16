@@ -16,7 +16,7 @@ import NavPointer from '../Navigation/NavPointer';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import {Button} from 'react-native-elements';
 import UseHeader from '../Helpers/UseHeader';
-import {CookiesTiles} from './MainScreen';
+import {ProductTile} from './MainScreen';
 
 export const Cart = (props) => {
   const goBack = () => NavPointer.Navigate('MainScreen');
@@ -30,7 +30,7 @@ export const Cart = (props) => {
   const infoScreen = () => NavPointer.Navigate('InfoScreen');
   const addToCart = (i) => props.addCartAction(i);
   const removeFromCart = (i) =>
-    props.cart[i.id].added !== 0 && props.removeCartAction(i);
+    props.cart[`${i.id}_${i.color}`].added !== 0 && props.removeCartAction(i);
 
   return (
     <HigherOrderScreen style={{backgroundColor: 'white'}}>
@@ -47,8 +47,8 @@ export const Cart = (props) => {
               CartArray.map((id, index) => {
                 const item = props.cart[id];
                 return (
-                  <CookiesTiles
-                    key={item.id}
+                  <ProductTile
+                    key={index}
                     item={{...item}}
                     goToSP={goToSP}
                     favs={props.favs}
@@ -58,6 +58,7 @@ export const Cart = (props) => {
                     addToCart={addToCart}
                     itemInCard={props.cart[item.id]}
                     removeFromCart={removeFromCart}
+                    isCart={true}
                   />
                 );
               })
@@ -147,6 +148,7 @@ export const Cart = (props) => {
           <View style={{paddingVertical: dim.height * 0.018, width: '80%'}}>
             <Button
               raised
+              disabled={props.total < 1}
               onPress={infoScreen}
               title="PROCEED TO CHECKOUT"
               titleStyle={{
@@ -156,11 +158,11 @@ export const Cart = (props) => {
               }}
               buttonStyle={{
                 paddingVertical: dim.height * 0.015,
-                backgroundColor: colors.secondary,
+                borderRadius: 50,
+                backgroundColor: 'white',
               }}
               containerStyle={{
                 width: '100%',
-                borderRadius: 50,
               }}
             />
           </View>
